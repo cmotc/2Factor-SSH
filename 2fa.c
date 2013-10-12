@@ -8,7 +8,7 @@
 /*
 Build with gcc -fPIC -fno-stack-protector -lcurl -c 2fa.c
 ld -lcurl -x --shared -o /lib/security/2fa.so 2fa.o
-in /etc/pam.d/sshd add "auth       required     2fa.so" under common-auth and change ChallengePrompt in sshd config to yes
+in /etc/pam.d/sshd add "auth       required     2fa.so" under common-auth and change ChallengeResponseAuthentication in sshd config to yes
 */
 
 
