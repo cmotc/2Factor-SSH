@@ -1,14 +1,13 @@
 2Factor-SSH
 ===========
 
-2-Factor Authentication for SSH
+<h4>2-Factor Authentication for SSH</h4>
 Files:
 
-2fa.c - PAM module for SSH
-  -change the base_url and code_size options
+<b>2fa.c</b> - PAM module for SSH (change the base_url and code_size options)<br><br>
 
-Python files are for a CGI script to send a code via email or google voice text
+<b>Python files are for a CGI script to send a code via email or google voice text</b>
 
-otp.py - CGI script that takes a 'username' and 'code' and uses email or sms to send code to user
-gv.py  - function to interact with google voice and send a text message with code
-sendEmail.py - function to send an email with code to an email address
+<b>otp.py</b> - CGI script that takes a 'username' and 'code' and uses email or sms to send code to user<br>
+<b>gv.py</b>  - function to interact with google voice and send a text message with code<br>
+<b>sendEmail.py</b> - function to send an email with code to an email address
